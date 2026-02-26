@@ -1,0 +1,26 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 100px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #76aec4;
+}
+
+.navbar li {
+    float: right;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #c5d5d7;
+    color:rgb(18, 44, 51)
+}
