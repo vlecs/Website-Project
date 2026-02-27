@@ -47,7 +47,7 @@ header img {
     text-align: center;
 }
 .text-box h1 {
-    font-size: 60px;
+    font-size: 16px;
 }
 .text-box p {
     margin: 10px 0 40px;
@@ -120,12 +120,12 @@ h3 {
 }
 .contact-table td {
     color: white;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 10px;
 }
 .contact h1 {
