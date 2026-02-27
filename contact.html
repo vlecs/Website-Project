@@ -5,15 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Budget Buddy Website</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+    <main>
+        <header>
+            <a href="index.html"><img src="https://www.freeiconspng.com/uploads/mountain-png-clipart-12.png"></a>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>  
+    </main> 
+    
+    <section class="contact">
+        <h1>Contact Us!</h1>
+        <br>
+        <table class="contact-table">
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="text-box"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message</label></td>
+                <td><textarea id="message" name="message"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>      
+        </table>     
+    </section>
+    <sections class="footer">
+        <p>Budget Buddy, the best financial support you'll ever receive.</p>
+    </section>
